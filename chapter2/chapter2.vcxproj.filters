@@ -39,7 +39,10 @@
     <ClCompile Include="Github_Commit_Test.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Q02_4.cpp">
+    <ClCompile Include="Q02_4_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Q02_4_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

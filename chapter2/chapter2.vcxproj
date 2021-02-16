@@ -143,6 +143,7 @@
     <ClCompile Include="MemMalFree.cpp" />
     <ClCompile Include="Q02_2.cpp" />
     <ClCompile Include="Q02_3.cpp" />
+    <ClCompile Include="Q02_4.cpp" />
     <ClCompile Include="Reference.cpp" />
     <ClCompile Include="RefPtr.cpp" />
     <ClCompile Include="RefReturn.cpp" />

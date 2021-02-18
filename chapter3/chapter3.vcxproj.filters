@@ -18,5 +18,11 @@
     <ClCompile Include="RacingCar.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="RacingCarFuncAdd.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Q03_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

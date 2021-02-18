@@ -1,0 +1,2 @@
+C:\Users\Admin\Documents\GitHub\CppExecise\chapter3\Debug\chapter3.exe
+C:\Users\Admin\Documents\GitHub\CppExecise\chapter3\Debug\chapter3.pdb

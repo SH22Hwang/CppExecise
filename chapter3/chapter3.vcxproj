@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Q03_1.cpp" />
     <ClCompile Include="RacingCar.cpp" />
+    <ClCompile Include="RacingCarEnum.cpp" />
     <ClCompile Include="RacingCarFuncAdd.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

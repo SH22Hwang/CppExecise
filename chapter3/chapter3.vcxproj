@@ -139,12 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Car.cpp" />
     <ClCompile Include="Q03_1.cpp" />
     <ClCompile Include="RacingCar.cpp" />
     <ClCompile Include="RacingCarClassBase.cpp" />
     <ClCompile Include="RacingCarEnum.cpp" />
     <ClCompile Include="RacingCarFuncAdd.cpp" />
     <ClCompile Include="RacingCarOuterFunc.cpp" />
+    <ClCompile Include="RacingMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Car.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

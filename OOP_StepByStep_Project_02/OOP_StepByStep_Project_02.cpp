@@ -3,32 +3,30 @@
 
 #include "Banking.h"
 
-BankingSystem acc;
-
 int main()
 {
 	int choice;
 
-	while (true) {
+	while(true) {
 
-		acc.ShowMenu();
+		ShowMenu();
 
-		std::cout << "선택: ";
-		std::cin >> choice;
+		cout << "선택: ";
+		cin >> choice;
 
 		switch (choice)
 		{
 		case 1:
-			acc.OpenAcc();
+			OpenAccount();
 			break;
 		case 2:
-			acc.DepositAcc();
+			Deposit();
 			break;
 		case 3:
-			acc.WithdrawalAcc();
+			Withdrawal();
 			break;
 		case 4:
-			acc.ShowAllAcc();
+			ShowAllAcc();
 			break;
 		default:
 			return 0;

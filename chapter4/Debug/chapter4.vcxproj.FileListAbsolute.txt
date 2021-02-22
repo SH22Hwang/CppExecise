@@ -1,0 +1,2 @@
+C:\Users\ghkd3\Github\CppExecise\chapter4\Debug\chapter4.exe
+C:\Users\ghkd3\Github\CppExecise\chapter4\Debug\chapter4.pdb

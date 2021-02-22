@@ -3,14 +3,15 @@
 
 #include "Banking.h"
 
+BankingSystem acc;
+
 int main()
 {
-	BankingSystem customer;
 	int choice;
 
 	while (true) {
 
-		customer.ShowMenu();
+		acc.ShowMenu();
 
 		std::cout << "선택: ";
 		std::cin >> choice;
@@ -18,16 +19,16 @@ int main()
 		switch (choice)
 		{
 		case 1:
-			customer.OpenAcc();
+			acc.OpenAcc();
 			break;
 		case 2:
-			deposit();
+			acc.DepositAcc();
 			break;
 		case 3:
-			withdrawal();
+			acc.WithdrawalAcc();
 			break;
 		case 4:
-			checkAll();
+			acc.ShowAllAcc();
 			break;
 		default:
 			return 0;

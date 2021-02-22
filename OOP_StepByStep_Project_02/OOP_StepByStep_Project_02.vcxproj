@@ -140,7 +140,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Banking.cpp" />
-    <ClCompile Include="P1main.cpp" />
     <ClCompile Include="OOP_StepByStep_Project_02.cpp" />
   </ItemGroup>
   <ItemGroup>

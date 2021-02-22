@@ -1,0 +1,2 @@
+C:\Users\ghkd3\Github\CppExecise\OOP_StepByStep_Project_02\x64\Debug\OOP_StepByStep_Project_02.exe
+C:\Users\ghkd3\Github\CppExecise\OOP_StepByStep_Project_02\x64\Debug\OOP_StepByStep_Project_02.pdb

@@ -139,8 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Banking.cpp" />
     <ClCompile Include="P1main.cpp" />
     <ClCompile Include="OOP_StepByStep_Project_02.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Banking.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

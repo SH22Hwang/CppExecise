@@ -1,11 +1,38 @@
 ﻿// OOP_StepByStep_Project_02.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 //
 
-#include <iostream>
+#include "Banking.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	BankingSystem customer;
+	int choice;
+
+	while (true) {
+
+		customer.ShowMenu();
+
+		std::cout << "선택: ";
+		std::cin >> choice;
+
+		switch (choice)
+		{
+		case 1:
+			customer.OpenAcc();
+			break;
+		case 2:
+			deposit();
+			break;
+		case 3:
+			withdrawal();
+			break;
+		case 4:
+			checkAll();
+			break;
+		default:
+			return 0;
+		}
+	}
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴

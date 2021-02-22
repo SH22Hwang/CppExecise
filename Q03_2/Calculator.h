@@ -1,5 +1,9 @@
-#pragma once
-#define __	CALCULATOR_H__
+//#pragma once
+#ifndef __CALCULATOR_H__
+#define __CALCULATOR_H__
+
+#include <iostream>
+using namespace std;
 
 class Calculator {
 private:
@@ -13,3 +17,9 @@ public:
 	double Mul(const double num1, const double num2);
 	double Div(const double num1, const double num2);
 };
+
+#endif // !__CALCULATOR_H__
+
+
+
+

@@ -6,7 +6,7 @@
 using namespace std;
 
 bool FruitSeller::InitMembers(int price, int num, int money) {
-    if (price <= 0 || num <= 0 || money <= 0) {
+    if (price <= 0 || num <= 0 || money < 0) {
         cout << "범위에서 벗어난 값 전달!" << endl;
         return false;
     }
@@ -16,27 +16,18 @@ bool FruitSeller::InitMembers(int price, int num, int money) {
     myMoney = money;
     return true;
 }
-int FruitSeller::GetPrice() {
+
+int FruitSeller::GetPrice() const {
     return APPLE_PRICE;
 }
 
-int FruitSeller::GetAplles() {
+int FruitSeller::GetAplles() const {
     return numOfApples;
 }
 
-int FruitSeller::GetMoney() {
+int FruitSeller::GetMoney() const {
     return myMoney;
 }
-
-bool SetApples(int num) {
-    if()
-}
-
-bool SetMoney(int money) {
-
-}
-
-
 
 int FruitSeller::SaleApples(int money) {
     int num = money / APPLE_PRICE;
@@ -50,18 +41,39 @@ void FruitSeller::ShowSalesResult() {
     cout << "판매 수익: " << myMoney << endl << endl;
 }
 
-
 bool FruitBuyer::InitMembers(int money) {
+    if (money <= 0) {
+        cout << "범위에서 벗어난 값 전달!" << endl;
+        return false;
+    }
+
     myMoney = money;
     numOfApples = 0;
+    return true;
 }
 
-void FruitBuyer::BuyApples(FruitSeller& seller, int money) {
+int FruitBuyer::GetAplles() const {
+    return numOfApples;
+}
+
+int FruitBuyer::GetMoney() const {
+    return myMoney;
+}
+
+bool FruitBuyer::BuyApples(FruitSeller& seller, int money) {
+    if (money <= 0) {
+        cout << "범위에서 벗어난 값 전달!" << endl;
+        return false;
+    }
+    
     numOfApples += seller.SaleApples(money); // massage passing
-    myMoney = money;
+    myMoney -= money;
+    
+    return true;
 }
 
 void FruitBuyer::ShowBuyResult() {
     cout << "현재 잔액: " << myMoney << endl;
     cout << "사과 개수: " << numOfApples << endl << endl;
 }
+

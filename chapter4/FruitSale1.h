@@ -13,11 +13,9 @@ private:
 
 public:
     bool InitMembers(int price, int num, int money);
-    int GetPrice();
-    int GetAplles();
-    int GetMoney();
-    bool SetApples(int num);
-    bool SetMoney(int money);
+    int GetPrice() const;
+    int GetAplles() const;
+    int GetMoney() const;
     int SaleApples(int money);
     void ShowSalesResult();
 };
@@ -28,10 +26,8 @@ class FruitBuyer {
 
 public:
     bool InitMembers(int money);
-    int GetAplles();
-    int GetMoney();
-    bool SetApples(int num);
-    bool SetMoney(int money);
-    void BuyApples(FruitSeller& seller, int money);
+    int GetAplles() const;
+    int GetMoney() const;
+    bool BuyApples(FruitSeller& seller, int money);
     void ShowBuyResult();
 };

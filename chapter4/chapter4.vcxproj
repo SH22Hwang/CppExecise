@@ -139,9 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FruitSale1.cpp" />
     <ClCompile Include="FruitSaleSim1.cpp" />
     <ClCompile Include="Q04_1.cpp" />
+    <ClCompile Include="Q04_2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FruitSale1.h" />

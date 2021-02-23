@@ -21,7 +21,7 @@
     <ClCompile Include="Q04_1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="FruitSale1.cpp">
+    <ClCompile Include="Q04_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

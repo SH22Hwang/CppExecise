@@ -36,5 +36,23 @@ public:
 class Ring {
 private:
 	Circle inner, outer;
+public:
+	void Init(int xIn, int yIn, double radiusIn, int xOut, int yOut, double radiusOut) {
+		inner.Init(xIn, yIn, radiusIn);
+		outer.Init(xOut, yOut, radiusOut);
+	}
 
+	void ShowRingInfo() const {
+		cout << "Inner Circle Info..." << endl;
+		inner.ShowCircleInfo();
+		cout << "Outer Circle Info..." << endl;
+		outer.ShowCircleInfo();
+	}
 };
+
+int main(void) {
+	Ring ring;
+	ring.Init(1, 1, 4, 2, 2, 9);
+	ring.ShowRingInfo();
+	return 0;
+}

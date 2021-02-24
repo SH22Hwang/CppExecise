@@ -1,10 +1,10 @@
-// Q04_1.cpp FruitSaleSim1의 정보은닉
+// //Q04_1.cpp FruitSaleSim1의 정보은닉
 //
-
-#include <iostream>
-#include "FruitSale1.h"
-using namespace std;
-
+//
+//#include <iostream>
+//#include "FruitSale1.h"
+//using namespace std;
+//
 //int main(void)
 //{
 //    FruitSeller seller;

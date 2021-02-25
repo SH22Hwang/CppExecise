@@ -141,8 +141,10 @@
   <ItemGroup>
     <ClCompile Include="FruitSaleSim1.cpp" />
     <ClCompile Include="FruitSaleSim2.cpp" />
+    <ClCompile Include="FruitSaleSim3.cpp" />
     <ClCompile Include="Q04_1.cpp" />
     <ClCompile Include="Q04_2.cpp" />
+    <ClCompile Include="Q04_3_1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FruitSale1.h" />

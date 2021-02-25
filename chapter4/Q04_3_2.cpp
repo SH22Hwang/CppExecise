@@ -19,7 +19,7 @@ private:
 	char* phone;
 	int position;
 public:
-	NameCard(char* myName, char* myCompany, char* myPhone, int myPos)
+	NameCard(const char* myName, const char* myCompany, const char* myPhone, int myPos)
 		: position(myPos)
 	{
 		/*MakeDynamicAlloc(name, myName);
@@ -80,9 +80,18 @@ public:
 	}
 };
 
+
 int main(void) {
-	NameCard manClerk("Lee", "abcEng", "010-1111-2222", COMP_POS::CLERK); 
+	NameCard manClerk("Lee", "abcEng", "010-1111-2222", COMP_POS::CLERK);
+	NameCard manSenior("Kim", "112Eng", "010-3333-4444", COMP_POS::SENIOR);
+	NameCard manAssist("Hwang", "gooEng", "010-5555-6666", COMP_POS::ASSIST);
+
+	manClerk.ShowNameCardInfo();
+	manSenior.ShowNameCardInfo();
+	manAssist.ShowNameCardInfo();
 	// 왜 오류가 생길까?
 	// const char[] ---- char*
+	// const char[]을 넘기니 const char*로 받아야한다.
 
+	return 0;
 }

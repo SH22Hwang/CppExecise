@@ -1,7 +1,5 @@
 ﻿  Q04_3_2.cpp
-C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Q04_3_2.cpp(35,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Q04_3_2.cpp(36,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Q04_3_2.cpp(37,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Q04_3_2.cpp(90,70): error C2664: 'NameCard::NameCard(char *,char *,char *,int)': 인수 1을(를) 'const char [4]'에서 'char *'(으)로 변환할 수 없습니다.
-C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Q04_3_2.cpp(90,20): message : 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
-C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Q04_3_2.cpp(22,2): message : 'NameCard::NameCard' 선언을 참조하십시오.
+C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Q04_3_2.cpp(32,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Q04_3_2.cpp(33,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Q04_3_2.cpp(34,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  chapter4.vcxproj -> C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Debug\chapter4.exe

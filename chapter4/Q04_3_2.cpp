@@ -81,17 +81,17 @@ public:
 };
 
 
-int main(void) {
-	NameCard manClerk("Lee", "abcEng", "010-1111-2222", COMP_POS::CLERK);
-	NameCard manSenior("Kim", "112Eng", "010-3333-4444", COMP_POS::SENIOR);
-	NameCard manAssist("Hwang", "gooEng", "010-5555-6666", COMP_POS::ASSIST);
-
-	manClerk.ShowNameCardInfo();
-	manSenior.ShowNameCardInfo();
-	manAssist.ShowNameCardInfo();
-	// 왜 오류가 생길까?
-	// const char[] ---- char*
-	// const char[]을 넘기니 const char*로 받아야한다.
-
-	return 0;
-}
+//int main(void) {
+//	NameCard manClerk("Lee", "abcEng", "010-1111-2222", COMP_POS::CLERK);
+//	NameCard manSenior("Kim", "112Eng", "010-3333-4444", COMP_POS::SENIOR);
+//	NameCard manAssist("Hwang", "gooEng", "010-5555-6666", COMP_POS::ASSIST);
+//
+//	manClerk.ShowNameCardInfo();
+//	manSenior.ShowNameCardInfo();
+//	manAssist.ShowNameCardInfo();
+//	// 왜 오류가 생길까?
+//	// const char[] ---- char*
+//	// const char[]을 넘기니 const char*로 받아야한다.
+//
+//	return 0;
+//}

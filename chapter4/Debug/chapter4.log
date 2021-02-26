@@ -1,5 +1,3 @@
-﻿  Q04_3_2.cpp
-C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Q04_3_2.cpp(32,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Q04_3_2.cpp(33,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Q04_3_2.cpp(34,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  ObjArrAndPtrArr.cpp
+C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\ObjArrAndPtrArr.cpp(14,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   chapter4.vcxproj -> C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Debug\chapter4.exe

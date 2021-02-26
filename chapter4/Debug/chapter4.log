@@ -1,3 +1,2 @@
-﻿  ObjArrAndPtrArr.cpp
-C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\ObjArrAndPtrArr.cpp(14,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  SelfRef.cpp
   chapter4.vcxproj -> C:\Users\Admin\Documents\GitHub\CppExecise\chapter4\Debug\chapter4.exe

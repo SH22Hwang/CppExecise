@@ -148,6 +148,7 @@
     <ClCompile Include="Q04_2.cpp" />
     <ClCompile Include="Q04_3_1.cpp" />
     <ClCompile Include="Q04_3_2.cpp" />
+    <ClCompile Include="SelfRef.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FruitSale1.h" />

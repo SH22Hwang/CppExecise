@@ -2,3 +2,5 @@ C:\Users\Admin\source\repos\chapter2\Debug\chapter2.exe
 C:\Users\Admin\source\repos\chapter2\Debug\chapter2.pdb
 C:\Users\Admin\Documents\GitHub\CppExecise\chapter2\Debug\chapter2.exe
 C:\Users\Admin\Documents\GitHub\CppExecise\chapter2\Debug\chapter2.pdb
+C:\Users\ghkd3\Github\CppExecise\chapter2\Debug\chapter2.exe
+C:\Users\ghkd3\Github\CppExecise\chapter2\Debug\chapter2.pdb

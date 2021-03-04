@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CallByRef.cpp" />
     <ClCompile Include="Github_Commit_Test.cpp" />
     <ClCompile Include="MemMalFree.cpp" />
     <ClCompile Include="Q02_2.cpp" />

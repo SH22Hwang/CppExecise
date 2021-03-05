@@ -6,11 +6,6 @@
 Account* accArr[ACCOUNT_LENTH];
 int accNum = 0;
 
-void Account::Init() {
-	accId = -1;
-	balance = -1;
-}
-
 int Account::GetId() {
 	return accId;
 }
@@ -29,32 +24,6 @@ void Account::DepositAcc(int money) {
 void Account::WithdrawalAcc(int money) {
 	balance -= money;
 }
-
-// bool Account::SetId(int id) {
-//	 if (id < 0 || id > 999) {
-//		 cout << "잘못된 범위" << endl;
-//		 return false;
-//	 }
-//	 
-//	 acc[id].accId = id;
-//
-//	 return true;
-//}
-//
-// bool Account::SetName(char* name[]) { // 책 참고
-//	 strcpy_s(acc[id].name, name);
-//}
-//
-// bool Account::SetMoney() {
-//	 if (balance < 0) {
-//		 cout << "잘못된 범위" << endl;
-//		 return false;
-//	 }
-//
-//	 acc[accId].balance = balance;
-//
-//	 return true;
-//}
 
 void ShowMenu() {
 	cout << "-----Menu-----\n"

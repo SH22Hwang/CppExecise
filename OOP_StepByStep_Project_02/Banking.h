@@ -18,18 +18,18 @@ private:
 public:
 	// 책 참고
 	Account(int ID, int money, char* name) : accId(ID), balance(money) { // 이게 무슨 문법이지? 디폴트인듯
+																		 // 생성자다.
 		cusName = new char[strlen(name) + 1]; // 동적할당
 	}
 
-	void Init();
 	int GetId();
 	char* GetName();
 	int GetBalance();
-	//bool SetId(int id);
-	//bool SetName(char* name[]);
-	//bool SetMoney();
-
-	//void OpenAcc();
 	void DepositAcc(int money);
 	void WithdrawalAcc(int money);
+
+	~Account() {
+		delete[] cusName;
+		cout << "delete memory!" << endl;
+	}
 };

@@ -16,7 +16,7 @@
 #include <iostream>
 using namespace std;
 
-class SoSimple{
+class SoSimple {
 
 private:
     int num;
@@ -39,7 +39,7 @@ public:
     }
 };
 
-SoSimple SimpleFuncObj(SoSimple ob){
+SoSimple SimpleFuncObj(SoSimple ob) {
     cout <<"return 이전" << endl;
     return ob
 }

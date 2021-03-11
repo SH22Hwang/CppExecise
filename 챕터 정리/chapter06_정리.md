@@ -106,7 +106,7 @@ int main(void) {
 
 	cout << PublicStaticMember::simObjCnt << "번째 SoSimple 객체" << endl; // 접근방법 2
 	cout << func1.simObjCnt << "번째 SoSimple 객체" << endl; // 접근방법 3
-	cout << func2.simObjCnt << "번째 SoSimple 객체" << endl;
+	cout << func2.simObjCnt << "번째 SoSimple 객체" << endl; // 이렇게 적으면 멤버변수에 접근하는 것이라고 오해할 수 있으므로 접근방법 2로 하라
 
 }
 ```

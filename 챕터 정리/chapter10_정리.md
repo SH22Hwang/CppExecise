@@ -33,7 +33,7 @@
 - 기본적으로 전위연산이다 (++pos)
 - 후위 연산은 int를 넣어서 구현 pos1.operator+(int)
 
-## 반환형에서 const 선언과 const 객체
+### 반환형에서 const 선언과 const 객체
 
 ```C++
 const Point operator++(int)
@@ -59,3 +59,15 @@ const Point operator++(int)
   - (Point형 const 임시객체)++;
   - (Point형 const 임시객체).operator++();
     - 여기서 operator++()는 const 함수가 아니기 때문에 컴파일 에러
+
+## 교환법칙 문제의 해결
+
+- 자료형이 다른 두 피연산자를 대상으로 하는 연산
+- 전역함수 형태로 오버로딩
+  - 방법 1: 교환법칙에 맞게 함수르 새로 구현
+  - 방법 2: 멤버함수로 구현한 연산자 오버로딩을 호출
+
+## cout, cin 그리고 endl의 정체
+
+- << 이것도 역시 객체다.
+- *this 반환으로 연이은 함수 호출
